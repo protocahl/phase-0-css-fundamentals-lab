@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey; /* You can choose your preferred color */
+  text-align: center;
+}
+figcaption {
+  font-size: 14px; /* Adjust the font size as needed */
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+#details div {
+  float: left;
+}
+.bottom-row div {
+  background-color: #your-color; /* Choose your background color */
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+}
+<link rel="stylesheet" href="./style.css">
